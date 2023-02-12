@@ -1,0 +1,137 @@
+[
+    {
+        "id": "e4904f3a-aaad-11ed-afa1-0242ac120002",
+        "apparel_id": "4cb84c7c-aaa7-11ed-afa1-0242ac120002",
+        "apparel_name": "Winter Socks",
+        "producer": "Levis",
+        "size": "small",
+        "units": 12,
+        "unit_price": 220
+    },
+    {
+        "id": "8cfb9b98-aaae-11ed-afa1-0242ac120002",
+        "apparel_id": "4cb84c7c-aaa7-11ed-afa1-0242ac120002",
+        "apparel_name": "Winter Socks",
+        "producer": "Levis",
+        "size": "large",
+        "units": 5,
+        "unit_price": 300
+    },
+    {
+        "id": "57a93a02-aac9-11ed-afa1-0242ac120002",
+        "apparel_id": "61d1b5d6-aac9-11ed-afa1-0242ac120002",
+        "apparel_name": "Winter Socks",
+        "producer": "Louis Philipe",
+        "size": "large",
+        "units": 6,
+        "unit_price": 200
+    },
+    {
+        "id": "084a9b42-aaae-11ed-afa1-0242ac120002",
+        "apparel_id": "6987a28a-aaa7-11ed-afa1-0242ac120002",
+        "apparel_name": "Denim Jeans",
+        "producer": "Louis Philipe",
+        "size": "medium",
+        "units": 5,
+        "unit_price": 3300
+    },
+    {
+        "id": "ae444fca-aaae-11ed-afa1-0242ac120002",
+        "apparel_id": "6987a28a-aaa7-11ed-afa1-0242ac120002",
+        "apparel_name": "Denim Jeans",
+        "producer": "Louis Philipe",
+        "size": "large",
+        "units": 7,
+        "unit_price": 4300
+    },
+    {
+        "id": "0f6fc730-aaae-11ed-afa1-0242ac120002",
+        "apparel_id": "8bb32104-aaa7-11ed-afa1-0242ac120002",
+        "apparel_name": "Panties",
+        "producer": "Jockey",
+        "size": "small",
+        "units": 10,
+        "unit_price": 500
+    },
+    {
+        "id": "d0a9f704-aaae-11ed-afa1-0242ac120002",
+        "apparel_id": "8bb32104-aaa7-11ed-afa1-0242ac120002",
+        "apparel_name": "Panties",
+        "producer": "Jockey",
+        "size": "medium",
+        "units": 5,
+        "unit_price": 700
+    },
+        {
+        "id": "87de1800-aac9-11ed-afa1-0242ac120002",
+        "apparel_id": "91fe98c8-aac9-11ed-afa1-0242ac120002",
+        "apparel_name": "Panties",
+        "producer": "Versace",
+        "size": "medium",
+        "units": 9,
+        "unit_price": 600
+    },
+    {
+        "id": "f1b4f64c-aaae-11ed-afa1-0242ac120002",
+        "apparel_id": "8bb32104-aaa7-11ed-afa1-0242ac120002",
+        "apparel_name": "Panties",
+        "producer": "Jockey",
+        "size": "large",
+        "units": 6,
+        "unit_price": 1000
+    },
+    {
+        "id": "5e0cbab4-aaaf-11ed-afa1-0242ac120002",
+        "apparel_id": "cc6a1af4-aaa7-11ed-afa1-0242ac120002",
+        "apparel_name": "T Shirt",
+        "producer": "US Polo",
+        "size": "small",
+        "units": 8,
+        "unit_price": 600
+    },
+    {
+        "id": "50d6fd3c-aaaf-11ed-afa1-0242ac120002",
+        "apparel_id": "cc6a1af4-aaa7-11ed-afa1-0242ac120002",
+        "apparel_name": "T Shirt",
+        "producer": "US Polo",
+        "size": "medium",
+        "units": 15,
+        "unit_price": 700
+    },
+    {
+        "id": "1937448c-aaae-11ed-afa1-0242ac120002",
+        "apparel_id": "cc6a1af4-aaa7-11ed-afa1-0242ac120002",
+        "apparel_name": "T Shirt",
+        "producer": "US Polo",
+        "size": "large",
+        "units": 5,
+        "unit_price": 800
+    },
+    {
+        "id": "1e1bb752-aaaf-11ed-afa1-0242ac120002",
+        "apparel_id": "206effac-aaa8-11ed-afa1-0242ac120002",
+        "apparel_name": "Boxers",
+        "producer": "Jockey",
+        "size": "medium",
+        "units": 9,
+        "unit_price": 400
+    },
+    {
+        "id": "1fafebc0-aaae-11ed-afa1-0242ac120002",
+        "apparel_id": "206effac-aaa8-11ed-afa1-0242ac120002",
+        "apparel_name": "Boxers",
+        "producer": "Jockey",
+        "size": "large",
+        "units": 6,
+        "unit_price": 303
+    },
+    {
+        "id": "15e38d4e-aac8-11ed-afa1-0242ac120002",
+        "apparel_id": "89ab615c-aac8-11ed-afa1-0242ac120002",
+        "apparel_name": "Boxers",
+        "producer": "VIP",
+        "size": "large",
+        "units": 10,
+        "unit_price": 200
+    }
+]
