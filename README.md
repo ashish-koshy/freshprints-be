@@ -1,31 +1,35 @@
 # freshprints-be
 
 !!IMPORTANT!! 
-Data source file is under `src/stock/data.json`
+Data source file is under `src/stock/data.json` (Please refer to it for data samples)
 
-Please use postman to hit the endpoints:
+Run `npm start` and then either use Postman to hit the endpoints or run `npm test` to run the test cases:
 
-POST call
+
+
+
+For updating existing stock data:
+Make POST call with the following request:
 `/update-stock`:
 {
-  apparel_id: 'Please refer to the data for apparel ids under src/stock/data.json'
-  size: 'small' 'medium' 'large' etc.
-  units: number
-  unit_price: number
+  apparel_id,
+  size,
+  units,
+  unit_price,
 }
 (this would update the json file under `src/stock`);
 
 
 
 
-Forc checking stock availability:
+For checking stock availability:
 Make a POST call with the following request:
 POST call
 `/availability`:
 [
     {
-        apparel_name: 'Winter Socks', 'Boxers', 'Panties' etc.
-        size: 'small' 'medium' 'large' etc.
+        apparel_name,
+        size,
     }
 ]
 
@@ -37,12 +41,7 @@ make a POST call with the following request:
 `/best-deal`:
 [
     {
-        apparel_name: 'Winter Socks', 'Boxers', 'Panties' etc.
-        size: 'small' 'medium' 'large' etc.
+        apparel_name,
+        size,
     }
-]
-
-
-
-For running tests execute:
-`npm test`
+];
