@@ -1,7 +1,10 @@
-import express, { Express, Request, Response } from 'express';
+const dotenv = require('dotenv');
+const express = require('express');
+
+
+import { Express, Request, Response } from 'express';
 import { checkBestDeal, checkStock, updateStock } from './stock';
 import { StockCheck, StockUpdate } from './stock/types';
-import dotenv from 'dotenv';
 
 dotenv.config();
 
@@ -35,3 +38,5 @@ app.post('/best-deal', (request: Request, response: Response) => {
 app.listen(port, () => {
   console.log(`Server is running at http://localhost:${port}`);
 });
+
+module.exports = app;

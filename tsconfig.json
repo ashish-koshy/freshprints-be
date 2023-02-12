@@ -1,7 +1,6 @@
 {
   "compileOnSave": true,
   "compilerOptions": {
-    "outDir": "./dist",
     "emitDecoratorMetadata": true,
     "module": "commonjs",
     "target": "ES2016",
