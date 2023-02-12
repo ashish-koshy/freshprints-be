@@ -51,3 +51,21 @@ export function checkStock(inputs: StockCheck): StockAvailability[] {
     return [];
   }
 }
+
+export function checkBestDeal(inputs: StockCheck): StockAvailability[] {
+  try {
+    const results: StockAvailability[] = [];
+    const availability: StockAvailability[] = checkStock(inputs); 
+    const hashMap: { [name: string]: StockAvailability } = {};
+    availability.forEach(item => hashMap[item.apparel_name] = item)
+    for (const stock of availability) {
+      if (stock.unit_price < hashMap[stock.apparel_name].unit_price)
+        hashMap[stock.apparel_name] = stock;
+    }
+    for (const key in hashMap) results.push(hashMap[key]);
+    return results;
+  } catch(ex) {
+    console.log(ex);
+    return [];
+  }
+}

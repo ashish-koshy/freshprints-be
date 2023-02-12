@@ -1,5 +1,5 @@
 import express, { Express, Request, Response } from 'express';
-import { checkStock, updateStock } from './stock';
+import { checkBestDeal, checkStock, updateStock } from './stock';
 import { StockCheck, StockUpdate } from './stock/types';
 import dotenv from 'dotenv';
 
@@ -28,8 +28,8 @@ app.post('/availability', (request: Request, response: Response) => {
 });
 
 app.post('/best-deal', (request: Request, response: Response) => {
-  const input: StockCheck[] = request.body;
-  response.json({ success: true });
+  const inputs: StockCheck = request.body;
+  response.json(checkBestDeal(inputs));
 });
 
 app.listen(port, () => {
