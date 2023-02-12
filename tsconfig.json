@@ -1,24 +1,24 @@
 {
-    "ts-node": {
-      "compileOnSave": true,
-      "compilerOptions": {
-        "emitDecoratorMetadata": true,
-        "module": "commonjs",
-        "target": "es6",
-        "types": ["node", "fs-extra", "express"],
-        "forceConsistentCasingInFileNames": true,
-        "strict": true,
-        "noImplicitReturns": true,
-        "noFallthroughCasesInSwitch": true,
-        "sourceMap": true,
-        "declaration": false,
-        "downlevelIteration": true,
-        "experimentalDecorators": true,
-        "moduleResolution": "node",
-        "importHelpers": true,
-        "resolveJsonModule": true,
-        "esModuleInterop": true,
-        "allowSyntheticDefaultImports": true
-      }
-    },
+  "compileOnSave": true,
+  "compilerOptions": {
+    "outDir": "./dist",
+    "emitDecoratorMetadata": true,
+    "module": "commonjs",
+    "target": "ES2016",
+    "types": ["node", "fs-extra", "express", "mocha", "expect"],
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "sourceMap": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
   }
+}
